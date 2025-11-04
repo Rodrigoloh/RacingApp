@@ -3,11 +3,11 @@
   "build": {
     "preview": {
       "android": { "buildType": "apk" },
-      "autoIncrement": "version"
+      "autoIncrement": true
     },
     "production": {
       "android": {},
-      "autoIncrement": "version"
+      "autoIncrement": true
     }
   },
   "submit": {
