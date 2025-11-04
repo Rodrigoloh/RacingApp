@@ -1,0 +1,26 @@
+{
+  "name": "racingapp",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Timing engine and session HUD for racing sessions.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rodrigoloh/RacingApp.git"
+  },
+  "author": "Rodrigo Lopez",
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --project tsconfig.json --noEmit",
+    "build": "tsc --project tsconfig.json",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.4.0"
+  }
+}
