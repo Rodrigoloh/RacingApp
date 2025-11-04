@@ -6,9 +6,6 @@ export default ({ config }: any) => ({
   slug: "racingapp",
   scheme: "racingapp",
   version: "1.0.0",
-  extra: {
-    eas: { projectId: "REEMPLAZA_CON_TU_PROJECT_ID" }
-  },
   ios: {
     bundleIdentifier: "com.tuempresa.racingapp",
     supportsTablet: true,
