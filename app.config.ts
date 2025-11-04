@@ -1,4 +1,4 @@
-import 'dotenv/config';
+// Note: dotenv is optional. Remove hard import to avoid EAS config parse errors before deps are installed.
 
 export default ({ config }: any) => ({
   ...config,
@@ -39,4 +39,3 @@ export default ({ config }: any) => ({
     "expo-sqlite"
   ]
 });
-
