@@ -34,6 +34,7 @@
     "@types/react-dom": "^18.2.0",
     "@types/react-native": "^0.73.0",
     "@vitejs/plugin-react": "^4.3.1",
+    "dotenv": "^16.4.5",
     "eas-cli": "^3.18.0",
     "typescript": "^5.4.0",
     "vite": "^5.4.0"
