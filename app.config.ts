@@ -6,6 +6,12 @@ export default ({ config }: any) => ({
   slug: "racingapp",
   scheme: "racingapp",
   version: "1.0.0",
+  icon: "./assets/icon.png",
+  splash: {
+    image: "./assets/splash.png",
+    resizeMode: "contain",
+    backgroundColor: "#000000"
+  },
   extra: {
     eas: { projectId: "3d674891-82ce-4355-b1f1-d4b1cd6c7c5a" }
   },
@@ -26,7 +32,12 @@ export default ({ config }: any) => ({
       "ACCESS_FINE_LOCATION",
       "ACCESS_BACKGROUND_LOCATION",
       "FOREGROUND_SERVICE"
-    ]
+    ],
+    adaptiveIcon: {
+      foregroundImage: "./assets/adaptive-icon.png",
+      monochromeImage: "./assets/adaptive-icon-mono.png",
+      backgroundColor: "#000000"
+    }
   },
   plugins: [
     [
