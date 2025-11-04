@@ -24,18 +24,21 @@
     "eas:prod": "eas build -p android --profile production"
   },
   "dependencies": {
+    "expo": "~54.0.22",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-native-web": "^0.19.13"
   },
   "devDependencies": {
-    "@types/react": "^18.2.0",
+    "@types/react": "^19.1.1",
     "@types/react-dom": "^18.2.0",
-    "@types/react-native": "^0.73.0",
     "@vitejs/plugin-react": "^4.3.1",
     "dotenv": "^16.4.5",
     "eas-cli": "^3.18.0",
     "typescript": "^5.4.0",
     "vite": "^5.4.0"
+  },
+  "overrides": {
+    "@types/react": "^19.1.1"
   }
 }
