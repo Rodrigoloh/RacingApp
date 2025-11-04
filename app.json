@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "RacingApp",
+    "slug": "racingapp",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.tuempresa.racingapp",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION"
+      ]
+    }
+  }
+}
